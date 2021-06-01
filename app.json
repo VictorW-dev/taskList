@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "appTarefas",
+    "name": "MyTasks",
     "slug": "appTarefas",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#26495d"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.victorwdev.mytasks"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#26495d"
+      },
+      "package": "com.victorwdev.mytasks"
     },
     "web": {
       "favicon": "./assets/favicon.png"
